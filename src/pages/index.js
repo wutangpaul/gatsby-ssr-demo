@@ -11,6 +11,7 @@ const IndexPage = () => (
     <h1>Gatsby SSR Example</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>
+      <Link to="/static">Visit static page</Link> <br />
       <Link to="/ssr">Visit SSR page</Link>
     </p>
     <StaticImage
@@ -22,7 +23,6 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </p>
   </Layout>
